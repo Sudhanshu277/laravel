@@ -10,12 +10,12 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6 card shadow " style="margin-top: 40px;"  >
-				<h4 class="text-center" >Form</h4><hr>
+				<h4 class="text-center" >Formm</h4><hr>
 				<form method="post" action="{{url('banner/update')}}" >
 					@csrf
 					<input type="hidden" name="id" value="{{$data->id}}">
 					<div class="form-group" >
-						<label>Name</label>
+						<label>Nameee</label>
 						<input type="text" name="name" placeholder="Enter your name" class="form-control" style="border-radius: none;" value="{{$data->name}}" >
 					</div>
 					<div class="form-group" >
@@ -61,4 +61,4 @@
 	</div>
 </section>>
 </body>
-</html> 
+</html>
